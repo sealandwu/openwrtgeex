@@ -12,5 +12,5 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.8.1/g' package/base-files/files/bin/config_generate
-
+wget -N http://cdn.miaogongzi.cc/patch/6.12.43-3.patch -P target/linux/x86/patches-6.12
 #sed -i 's/ +libopenssl-legacy//g' feeds/helloworld/shadowsocksr-libev/Makefile
